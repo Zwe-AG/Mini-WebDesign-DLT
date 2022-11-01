@@ -1,0 +1,39 @@
+body{
+    background-color: #007065;
+}
+
+.container{
+    margin-left: 450px;
+    margin-top: 130px;
+}
+
+.container .first{
+    width:0px;
+    height:0px;
+    border-bottom: 250px solid  #FFEECF;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+}
+
+.container .second{
+    width:0px;
+    height:0px;
+    border-bottom: 250px solid  #F5C181;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    /* margin-top: -100px; */
+    top: 250px;
+    position: absolute;
+    z-index: -1;
+}
+
+.container .third{
+    width:0px;
+    height:0px;
+    border-bottom: 250px solid  #00A79D;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    top: 380px;
+    position: absolute;
+    z-index: -2;
+}

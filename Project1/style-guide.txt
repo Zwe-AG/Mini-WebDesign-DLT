@@ -1,0 +1,13 @@
+
+  body-->  background: rgb(242, 242, 242)
+orange card:  rgb(227, 136, 38);
+green:  rgb(0, 105, 112);
+ dark green: rgb(0, 66, 65);
+
+font-color --> color: rgb(242, 242, 242);
+
+
+
+
+
+

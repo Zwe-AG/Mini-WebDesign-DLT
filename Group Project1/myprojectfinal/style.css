@@ -1,0 +1,289 @@
+html{
+    scroll-behavior: smooth;
+}
+.lr p, .plaza p{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    word-spacing: 4px;
+    line-height: 30px;
+}
+.search input{
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    border-color:darkblue;
+}
+.search{
+    text-align:right;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+.header h1{
+    display: inline;
+    font-size: 3em;
+    float: left;
+    margin-top: 0;
+}
+.header, .footer{
+    background-color:white;
+    box-shadow: 3px 0px 6px gray;
+    color: darkblue;
+    text-shadow: 4px 4px 3px rgba(156, 156, 179, 0.623);
+    padding: 30px 50px 30px 50px;
+}
+.header i{
+    text-shadow: none;
+}
+.left{
+    width: 40%;
+    float:left;
+    padding: 40px 40px 0 40px;
+}
+.lr{
+    padding-top: 70px;
+}
+.lr .right img{
+    width: 784px;
+    border-radius: 100px 0px 0px 100px;
+    box-shadow: -5px 5px 5px rgb(150, 150, 150);
+}
+body{
+    margin:0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+a.nav{
+    color:darkblue;
+    font-family: sans-serif;
+    text-decoration-color: rgba(166, 166, 219, 0.884);
+    text-decoration-thickness: 8px;
+    padding-right: 4px;
+    font-weight: bold;
+}
+
+a.nav:hover{
+    text-decoration-color: rgb(204, 203, 203);
+    transition: 0.1s;
+    left: 0;
+}
+.ctitle{
+    color:darkblue;
+    background-color: rgb(236, 236, 236);
+    font-weight: bold;
+    padding: 13px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    margin-left: 50px;
+    border-bottom:rgb(102, 102, 102);
+}
+.chapter i{
+    padding-right:20px;
+}
+.ctable{
+    box-shadow:2px 2px 5px darkgray;
+    border-radius: 20px;
+    margin-top:13px;
+}
+.ctable .td{
+    padding: 20px 25px 20px 40px;
+    border-bottom:1px solid rgb(187, 187, 187);
+}
+.ctable td a, .ctable td i{
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+.ctable td:hover a{
+    text-decoration: underline;
+    color: rgb(28, 28, 240);
+}
+
+.ctable td:hover i{
+    color: rgb(28, 28, 240);
+}
+.ctable .td1{
+    padding: 20px 25px 20px 40px;
+}
+.chapter{
+    position:absolute;
+    left:20%;
+    margin-top:80px;
+}
+
+/* 
+Temple CSS CODE
+*/
+#temple{
+    margin-top: 28%;
+}
+
+/* 
+    CSS for all 5 places
+*/
+.temple, .airport, .plaza1, .park, .tower{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    border-radius: 200px 200px 0 0;
+}
+.temple, .airport, .plaza{
+    background-color: whitesmoke;
+}
+.park,.tower{
+    background-color: lightgray;
+}
+#airport, #plaza{
+    background-color: lightgray;
+}
+#park, #tower{
+    background-color:whitesmoke;
+}
+.plaza .heading{
+    width: 40%;
+    padding-left: 80px;
+}
+.plaza .heading h2{
+    font-size: 1.5em;
+    color: darkblue;
+}
+.plaza .top{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding-bottom: 80px;
+}
+.plaza .top .left{
+    width: 42.5%;
+    margin-left: 40px;
+}
+.plaza .top .left img{
+    width: 100%;
+    border-radius: 20px;
+    transition: all 0.5s;  
+}
+.plaza .top .left:hover img{
+    transform: translateY(-30px);
+}
+.plaza .top .right{
+    width: 42.5%;
+    margin-left: 40px;
+    margin-top:5%;
+}
+.plaza .bottom{
+    width: 100%;
+    height:400px;
+    display: flex;
+    margin-top: 30px;
+}
+.plaza .bottom .right{
+    width: 42.5%;
+}
+.plaza .bottom .right img{
+    width: 100%;
+    border-radius: 20px;   
+    transition: all 0.5s;
+}
+.plaza .bottom .right:hover img{
+    transform: translateY(-30px);
+}
+.plaza .bottom .left{
+    width: 42.5%;
+    margin-left: 60px;
+}
+.plaza .left img{
+    height: 380px;
+    box-shadow: 5px 5px 5px rgb(156, 156, 156);
+}
+.plaza .right img{
+    height: 380px;
+    box-shadow: -5px 5px 5px rgb(156, 156, 156);
+}
+.btop a{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    font-weight: bold;
+    color: darkblue;
+    border: 2px outset darkblue;
+    text-decoration: none;
+}
+.btop a:hover{
+    text-decoration: none;
+    color: lightgray;
+    background-color: darkblue;
+    transition: 0.5s;
+}
+.dtop{
+    background-color: whitesmoke;
+    padding: 50px;
+    text-align: right;
+    box-shadow: 0px 3px 3px rgb(175, 175, 175);
+}
+.read{
+    border-radius: 20px;
+    padding: 10px 20px;
+    border-color: darkblue;
+    background-color: transparent;
+    color:darkblue;
+}
+.read:hover{
+    background-color: darkblue;
+    color: white;
+    transition: 0.6s;
+}
+.contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    margin-left: 28%;
+}
+.contact h4{
+    margin:0;
+}
+.contact input[type=text]{
+    background-color: whitesmoke;
+    border:0;
+    border-radius: 20px;
+    width: 60%;
+    margin: 10px 0 20px 0;
+    height: 30px;
+}
+.contact textarea{
+    background-color: whitesmoke;
+    border:0;
+    width: 60%;
+    margin: 10px 0 20px 0;
+    height:200px;
+    border-radius: 20px;
+}
+.contact .comment{
+    margin-left:160px;
+}
+.footer{
+    text-shadow: none;
+}
+.footer h1{
+    text-shadow: 4px 4px 3px rgba(156, 156, 179, 0.623);
+}
+.footer input[type=text]{
+    background-color: whitesmoke;
+    border: 0;
+    border-radius: 20px;
+    margin: 10px 15px 20px 0;
+    height: 30px;
+    width: 300px;
+    padding: 5px 15px;
+}
+.footer td i{
+    padding: 5px;
+    padding-top:200px;
+}
+.footer table{
+    width: 100%;
+}
+.copyright{
+    background-color: rgb(0, 0, 116);
+    color: white;
+    text-align: center;
+    text-shadow: none;
+}

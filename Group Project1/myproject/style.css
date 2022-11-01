@@ -1,0 +1,326 @@
+/* Airport Start */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    display: flex;
+}
+
+.container1 .left1 .air{
+    width:600px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+    opacity: 0.8;
+    animation: zoom1 10s infinite;
+}
+
+@keyframes zoom1{
+    100%{
+        transform: scale(1.09);
+    }
+}
+
+.container1 .left1  .left1-text{
+    position: absolute;
+    max-width: 30%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.8 );
+    color: #fff;
+    padding: 15px 20px;
+    margin-left: 30px;
+}
+
+.container1 .left1 .left1-text h5{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
+.container1 .left1 .left1-text p{
+    font-size: 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+} 
+
+.container1 .right1 h1{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.container1 .right1 p{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container1 .right1 .btn{
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 15px 40px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+.container1 .right1 .btn:hover{
+    color: white;
+    background-color: black;
+    letter-spacing: 2px;
+}
+
+.container2{
+    display: flex;
+}
+
+.container2 .left2 h1{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.container2 .left2 p{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container2 .left2 .btn{
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 15px 40px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+.container2 .left2 .btn:hover{
+    color: white;
+    background-color: black;
+    letter-spacing: 2px;
+}
+
+.container2 .right2 .air1{
+    width:600px;
+    height: 400px;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    opacity: 0.8;
+    animation: zoom2 10s infinite;
+}
+
+@keyframes zoom2{
+    100%{
+        transform: scale(1.09);
+    }
+}
+
+.container2 .right2 .right2-text{
+    position: absolute;
+    max-width: 30%;
+    top: 107%;
+    left: 55%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.8 );
+    color: #fff;
+    padding: 15px 20px;
+    margin-left: 30px;
+}
+
+.container2 .right2 .right2-text h5{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.container2 .right2 .right2-text p{
+    font-size: 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+} 
+
+/* Airport End */
+
+
+
+
+
+/* Park Start */
+
+.container3{
+    display: flex;
+}
+
+.container3 .left3 .air2{
+    width:600px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+    opacity: 0.8;
+    animation: zoom3 10s infinite;
+}
+
+@keyframes zoom3{
+    100%{
+        transform: scale(1.09);
+    }
+}
+
+.container3 .left3  .left3-text{
+    position: absolute;
+    max-width: 30%;
+    top: 170%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.8 );
+    color: #fff;
+    padding: 15px 20px;
+    margin-left: 30px;
+}
+
+.container3 .left3 .left3-text h5{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
+.container3 .left3 .left3-text p{
+    font-size: 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+} 
+
+.container3 .right3 h1{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.container3 .right3 p{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container3 .right3 .btn1{
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 15px 40px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+.container3 .right3 .btn1:hover{
+    color: white;
+    background-color: black;
+    letter-spacing: 2px;
+}
+
+.container4{
+    display: flex;
+}
+
+.container4 .left4 h1{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.container4 .left4 p{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container4 .left4 .btn1{
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 15px 40px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+.container4 .left4 .btn1:hover{
+    color: white;
+    background-color: black;
+    letter-spacing: 2px;
+}
+
+.container4 .right4 .air3{
+    width:600px;
+    height: 400px;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    opacity: 0.8;
+    animation: zoom4 10s infinite;
+}
+
+@keyframes zoom4{
+    100%{
+        transform: scale(1.09);
+    }
+}
+
+.container4 .right4 .right4-text{
+    position: absolute;
+    max-width: 30%;
+    top: 230%;
+    left: 55%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.8 );
+    color: #fff;
+    padding: 15px 20px;
+    margin-left: 30px;
+}
+
+.container4 .right4 .right4-text h5{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.container4 .right4 .right4-text p{
+    font-size: 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+} 
+
+/* Airport End */

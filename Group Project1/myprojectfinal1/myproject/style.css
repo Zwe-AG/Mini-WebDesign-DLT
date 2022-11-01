@@ -1,0 +1,629 @@
+body{
+    font-family: sans-serif;
+    
+}
+.navi{
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.navi .left{
+    width: 50%;
+    background-color: #fff;
+}
+.navi .left img{
+    width: 80px;
+    height: 60px;
+
+    padding-left: 60px;
+}
+
+.navi .right{
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border-right: 3px solid navajowhite;
+    margin-right: 30px;
+}   
+
+.navi .right a{
+    text-decoration:none;
+    color: #f4c095;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.navi .right a:hover{
+    font-style: italic;
+    text-decoration: underline;
+    color: black;
+    text-decoration-color: powderblue;
+    text-decoration-thickness: 5px;
+}
+.navi .searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 30px;
+}
+
+.navi .searchbar .search{
+    font-size: 15px;
+
+    font-style: italic;
+    text-decoration: none;
+    color: #f4c095;
+    
+    border: 1px solid #f4c095;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.navi .searchbar .input{
+    color: #f4c095; 
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: none;
+
+    border-top-color: #f4c095;
+    border-bottom-color: #f4c095;
+    border-left-color: #f4c095;
+    border-right-color: #f4c095;
+}
+
+.navi .searchbar .explore{
+    margin-left: 20px;
+}
+.navi .searchbar .search:hover{
+    background-color: powderblue;
+    color: black;
+}   
+.bgimage{
+    width: 100%;
+    height: 100%;
+}
+
+.bgimage img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.bgimage .caption .about{
+    width: 100%;
+    height: 300px;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bgimage .caption .about .left{
+    width: 50%;
+
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+.ctitle{
+    color:rgb(102, 102, 102);
+    background-color: rgb(236, 236, 236);
+    font-weight: bold;
+    padding: 13px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px;
+    margin-left: 50px;
+    border-bottom:rgb(102, 102, 102);
+}
+
+.bgimage .caption .about .left .chapter i{
+    padding-right: 20px;
+}
+
+.ctable{
+    box-shadow:2px 2px 5px darkgray;
+    border-radius: 20px;
+    margin-top:13px;
+}
+
+.ctable a{
+    text-decoration: none;
+    color: darkorange;
+}
+.ctable a:hover{
+    color: brown;
+
+}
+
+
+.ctable .td{
+    padding: 20px 25px 20px 40px;
+   
+}
+
+
+
+.ctable .td1{
+    padding: 20px 25px 20px 40px;
+}
+
+
+
+.bgimage .caption .about .right{
+    width: 50%
+
+}
+
+.bgimage .caption .about .right iframe{
+    width: 450px;
+    height: 300px;
+
+    border-radius: 20px;
+}
+
+
+.bgimage .caption pre{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+
+    margin-left: 100px;
+}
+
+.bgimage .caption .places{
+    width: 1000px;
+    height: 900px;
+    
+}
+
+.bgimage .caption .places img{
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.bgimage .caption .places img:hover{
+    transform: scale(1.05);
+}
+
+.bgimage .caption .places .top{
+    width: 1200px;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:120px;
+}
+
+
+.bgimage .caption .places .top .left{
+    width: 300px;
+    height: 280px;
+
+    position: relative;
+
+}
+
+.bgimage .caption .places .top .left::before{
+    content: 'Sensoji Temple';
+    width: 105%;
+    height: 20%;
+    background-color:#F9D5A7;
+    color:#1E5128;
+    font-style: italic;
+    font-weight: 550;
+
+    position: absolute;
+    bottom: -60px;
+    left: -2.5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+
+    z-index: -1;
+    opacity: 0;
+
+    transition: all 0.3s;
+}
+
+.bgimage .caption .places .top .left:hover::before{
+    opacity: 1;
+    z-index: 1;
+}
+
+
+.bgimage .caption .places .top .left:hover img{
+    border-radius: 20px 20px 0px 0px;
+}
+.bgimage .caption .places .top .center{
+    width: 300px;
+    height: 280px;
+
+}
+
+.bgimage .caption .places .top .center{
+    width: 300px;
+    height: 280px;
+
+    position: relative;
+
+}
+
+.bgimage .caption .places .top .center::before{
+    content: 'Showa Kiren Park';
+    width: 105%;
+    height: 20%;
+    background-color:#F9D5A7;
+    color:#1E5128;
+    font-style: italic;
+    font-weight: 550;
+
+    position: absolute;
+    bottom: -60px;
+    left: -2.5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+
+    z-index: -1;
+    opacity: 0;
+
+    transition: all 0.3s;
+}
+
+.bgimage .caption .places .top .center:hover::before{
+    opacity: 1;
+    z-index: 1;
+}
+
+
+.bgimage .caption .places .top .center:hover img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+
+.bgimage .caption .places .top .right{
+    width: 300px;
+    height: 280px;
+
+    position: relative;
+
+}
+
+.bgimage .caption .places .top .right::before{
+    content: 'Tokyo Tower';
+    width: 105%;
+    height: 20%;
+    background-color:#F9D5A7;
+    color:#1E5128;
+    font-style: italic;
+    font-weight: 550;
+
+    position: absolute;
+    bottom: -60px;
+    left: -2.5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+
+    z-index: -1;
+    opacity: 0;
+
+    transition: all 0.3s;
+}
+
+.bgimage .caption .places .top .right:hover::before{
+    opacity: 1;
+    z-index: 1;
+}
+
+
+.bgimage .caption .places .top .right:hover img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.bgimage .caption .places .bottom{
+    width: 1200px;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:100px;
+    margin-top: 40px;
+
+
+}
+
+.bgimage .caption .places .bottom .left{
+    width: 300px;
+    height: 280px;
+
+    position: relative;
+
+}
+
+.bgimage .caption .places .bottom .left::before{
+    content: 'Haneda Airport';
+    width: 105%;
+    height: 20%;
+    background-color:#F9D5A7;
+    color:#1E5128;
+    font-style: italic;
+    font-weight: 550;
+
+    position: absolute;
+    bottom: -60px;
+    left: -2.5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+
+    z-index: -1;
+    opacity: 0;
+
+    transition: all 0.3s;
+}
+
+.bgimage .caption .places .bottom .left:hover::before{
+    opacity: 1;
+    z-index: 1;
+}
+
+
+.bgimage .caption .places .bottom .left:hover img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+
+.bgimage .caption .places .bottom .right{
+    width: 300px;
+    height: 280px;
+
+    position: relative;
+}
+
+
+.bgimage .caption .places .bottom .right::before{
+    content: 'DiverCity Plaza';
+    width: 105%;
+    height: 20%;
+    background-color:#F9D5A7;
+    color:#1E5128;
+    color: #152D35;
+    font-style: italic;
+    font-weight: 550;
+
+    position: absolute;
+    bottom: -60px;
+    left: -2.5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+
+    z-index: -1;
+    opacity: 0;
+
+    transition: all 0.3s;
+}
+
+.bgimage .caption .places .bottom .right:hover::before{
+    opacity: 1;
+    z-index: 1;
+}
+
+
+.bgimage .caption .places .bottom .right:hover img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.aboutdiv{
+    
+    width: 100%;
+    margin-top: -250px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aboutdiv .about{
+    width: 40%;
+    
+}
+
+.aboutdiv .about h2{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: powderblue;
+    text-decoration-thickness: 5px;
+    font-size: 30px;
+}
+
+.aboutdiv .about p{
+    font-size: 15px;
+    font-style: italic;
+    
+    word-spacing: 4px;
+    padding-left: 20px;
+    
+}
+.aboutdiv .location{
+    width: 400px;
+    height: 300px;
+   
+
+    margin-top: 60px;
+}
+.aboutdiv .location iframe{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    margin-left: 90px;
+
+}
+
+.read{
+    border-radius: 20px;
+    padding: 10px 20px;
+    border-color: #f4c095;
+    border-bottom-color: #f4c095;
+    background-color: transparent;
+    color:darkblue;
+}
+.read:hover{
+    background-color: powderblue;
+    color: black;
+    transition: 0.6s;
+}
+
+.contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    margin-left: 28%;
+}
+.contact h4{
+    margin:0;
+}
+.contact input[type=text]{
+    background-color: whitesmoke;
+    border:0;
+    border-radius: 20px;
+    width: 60%;
+    margin: 10px 0 20px 0;
+    height: 30px;
+}
+.contact textarea{
+    background-color: whitesmoke;
+    border:0;
+    width: 60%;
+    margin: 10px 0 20px 0;
+    height:200px;
+    border-radius: 20px;
+}
+.contact .comment{
+    margin-left:160px;
+}
+
+.footer{
+    text-shadow: none;
+
+    padding-left:40px ;
+}
+.footer h1{
+    text-shadow: 4px 4px 3px rgba(156, 156, 179, 0.623);
+
+    transform: translate(-80px);
+}
+.footer input[type=text]{
+    background-color: whitesmoke;
+    border: 0;
+    border-radius: 20px;
+    margin: 10px 15px 20px 0;
+    height: 30px;
+    width: 300px;
+    padding: 5px 15px;
+}
+.footer td i{
+    padding: 5px;
+    padding-top:200px;
+}
+.footer table{
+    width: 100%;
+}
+.copyright{
+    background-color: rgb(0, 0, 116);
+    color: white;
+    text-align: center;
+    text-shadow: none;
+}
+
+.iconcontainer{
+    display: flex;
+
+    text-align: center;
+    margin-top: 30px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    color: green;
+    background-color: #f1f1f1;
+
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+    border-radius: 30px;
+
+    margin: 10px;
+    position: relative;
+
+    overflow: hidden;
+}
+.icon i{
+    font-size: 20px;
+    line-height: 50px;
+
+    transition: all 0.5s;
+}
+
+.icon:hover i{
+    transform: scale(1.1);
+    color: #f1f1f1;
+}
+
+.icon::before{
+    content: '';
+    width: 130%;
+    height: 130%;
+
+    background-color: green;
+
+    position: absolute;
+    top: 90%;
+    left: -120%;
+
+    transform: rotate(45deg);
+}
+
+.icon:hover::before{
+    /*animation: myani 0.7s 1 forwards;*/
+    animation-name: myani;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes myani{
+    0%{
+        top: 90%;
+        left: -120%;
+    }
+    50%{
+        top: -30%;
+        left: 9%;
+    }
+    100%{
+        top: -10%;
+        left: -15%;
+    }
+}

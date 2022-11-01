@@ -1,0 +1,103 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+}
+.container .circle1 {
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    background-color:hsl(185, 89%, 38%) ;
+    margin-left: -200px;
+    margin-top:-300px;
+    
+}
+
+.container .circle2 {
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    background-color:hsl(185, 89%, 38%) ;
+    margin-left: 900px;
+    margin-top:-200px;
+}
+
+.container .box{
+    width: 400px;
+    height: 400px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-top: -990px;
+    margin-left: 600px;
+    border-radius: 30px;
+}
+
+.container .box .bg{
+    width: 400px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.container .box .profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-left: 150px;
+    margin-top: -60px;
+}
+
+.container .box span.first{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 550;
+    color: hsl(229, 23%, 23%);
+    opacity: 0.9;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+
+
+.container .box span.second{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 550;
+    color:  hsl(0, 0%, 59%);
+    opacity: 0.9;
+    margin-top: 30px;
+}
+
+.container .box h3{
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 550;
+    color:  hsl(0, 0%, 59%);
+    opacity: 0.9;
+    margin-left: 185px;
+    margin-top: 10px;
+}
+
+.container .box hr{
+    opacity: 0.7;
+}
+
+.container .box .container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container .box .container1 h2{
+    margin-left: 60px;
+}
+
+.container .box .container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container .box .container2 h2{
+    margin-left: 60px;
+    font-size: 15px;
+    margin-top: -15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(139, 139, 139);
+}

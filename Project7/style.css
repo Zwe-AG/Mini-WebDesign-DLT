@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.header{
+    background-image: url('./images/desktop/image-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+.header .bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .bar .logo img{
+    width: 130%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.header .bar .navbar{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.header  .bar .navbar h3{
+    font-size: 20px;
+    margin-right: 40px;
+    margin-top: 40px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+.header h1{
+    margin-left: 390px;
+    margin-top: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform:uppercase;
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.header img{
+    margin-left: 700px;
+    margin-top: 30px;
+}
+/* header */
+
+/* container1 */
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 .left1 h2{
+    font-family: 'Josefin Slab', serif;
+    font-size: 40px;
+    margin-top: 200px;
+    margin-left: 130px;
+}
+
+.container1 .left1 p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 130px;
+    color: rgb(129, 127, 127);
+}
+
+.container1 .left1 h3{
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.container1 .left1 .line{
+    width: 100px;
+    height: 5px;
+    background-color: yellow;
+    margin-left: 130px;
+    margin-top: -5px;
+}
+/* container1 */
+
+/* container2 */
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2 .left2 img{
+    margin-top: -3px;
+    width: 720px;
+}
+
+.container2 .right2 h2{
+    font-family: 'Josefin Slab', serif;
+    font-size: 40px;
+    margin-top: 200px;
+    margin-right: 100px;
+}
+
+.container2 .right2 p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-right: 100px;
+    color: rgb(129, 127, 127);
+}
+
+.container2 .right2 h3{
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+.container2 .right2 .line{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(241, 119, 119);
+    margin-right: 100px;
+    margin-top: -5px;
+}
+/* container2 */
+
+/* container3 */
+
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3 .left3{
+    background-image: url('./images/desktop/image-graphic-design.jpg');
+    background-repeat: no-repeat;
+    width: 720px;
+    height: 700px;
+    margin-top: -10px;
+}
+
+.container3 .left3 h1{
+    margin-top: 350px;
+    margin-left: 230px;
+    color: rgb(32, 32, 32);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.container3 .left3 p{
+    margin-top: 30px;
+    margin-left: 50px;
+    color: rgb(32, 32, 32);
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.container3 .right3{
+    background-image: url('./images/desktop/image-photography.jpg');
+    background-repeat: no-repeat;
+    width: 725px ;
+    height: 700px ;
+    margin-top: -10px;
+}
+
+.container3 .right3 h1{
+    margin-top: 350px;
+    margin-left: 270px;
+    color: rgb(32, 32, 32);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.container3 .right3 p{
+    margin-top: 30px;
+    margin-left: 50px;
+    color: rgb(32, 32, 32);
+    text-align: center;
+    font-size: 20px;
+}
+
+/* container3 */
+
+/* container4*/
+
+.text{
+    text-transform: uppercase;
+    text-align: center;
+    color: gray;
+    font-size: 25px;
+    font-family: 'Josefin Slab', serif;
+    letter-spacing: 2px;
+}
+
+.container4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container4 .left4 img{
+    border-radius: 50%;
+    width: 25%;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.container4 .left4 p{
+    margin-left: 70px;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+.container4 .left4 h2{
+    margin-left: 60px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.container4 .left4 h5{
+    margin-left: 60px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(168, 166, 166);
+}
+
+.container4 .middle4 img{
+    border-radius: 50%;
+    width: 25%;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.container4 .middle4 p{
+    margin-left: 30px;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+.container4 .middle4 h2{
+    margin-left: 50px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.container4 .middle4 h5{
+    margin-left: 60px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(168, 166, 166);
+}
+
+.container4 .right4 img{
+    border-radius: 50%;
+    width: 25%;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.container4 .right4 p{
+    margin-right: 50px;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+.container4 .right4 h2{
+    margin-right: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.container4 .right4 h5{
+    margin-right: 30px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(168, 166, 166);
+}
+/* container4*/
+
+/* container5*/
+.container5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.container5 img{
+    width:360px ;
+}
+/* container5*/
+
+/* container6*/
+
+
+.container6{
+    background: hsl(168, 68%, 67%);
+    margin-top: -5px;
+    height: 400px;
+    /* background-size: cover; */
+}
+.container6 .name h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: hsl(168, 68%, 67%);
+    text-align: center;
+}
+
+.container6 h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: silver;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.container6 .bar1{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.container6 .bar1 h2{
+    font-size: 20px;
+    margin-left: 50px;
+    color: rgb(1, 5, 39);
+}
+
+.container6 .bar1 h2:hover{
+    color: white;
+}
+
+.container6 .social{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container6 .social img{
+    margin-left: 50px;
+}
+
+/* container6*/

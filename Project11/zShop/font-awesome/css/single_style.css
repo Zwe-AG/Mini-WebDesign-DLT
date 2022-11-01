@@ -1,0 +1,336 @@
+.sub-page{
+    margin: 0;
+    padding: 0;
+}
+
+.wrap-body{
+    background: url('../../images/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.main-header .zerogrid .row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-header .zerogrid .row .col-1-3 .site-branding img{
+   margin-left: 30px;
+   margin-top: 40px;
+}
+
+.main-header .zerogrid .row .col-2-3 .align-right ul{
+   display: flex;
+   justify-content:space-around;
+} 
+
+.main-header .zerogrid .row .col-2-3 .align-right ul li{
+    margin-right: 10px;
+    margin-top: 40px;
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.main-header .zerogrid .row .col-2-3 .align-right ul li a{
+    text-decoration: none;
+}
+
+.main-header .zerogrid .row .col-2-3 .align-right ul li a span{
+    color:white;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.main-header .zerogrid .row .col-2-3 .align-right ul li.active a span{
+    color:black;
+}
+
+.main-header .zerogrid .row .col-2-3 .align-right ul li.active a span{
+    color:black;
+}
+
+.main-header .zerogrid .row .col-2-3 .align-right ul li.active{
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.main-header .zerogrid .row .col-2-3 .align-right ul li a span:hover{
+    background-color: white;
+    color: black;
+}
+
+.wrap-container{
+    background-color: white;
+    width: 1100px;
+    margin-left: 170px;
+    overflow: hidden;
+}
+
+.single-post .row .entry-header{
+    height: 250px;
+}
+
+.single-post .row .entry-header .time{
+    color: rgb(190, 190, 190);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-left: 500px;
+    position: absolute;
+    margin-top: -25px;
+}
+
+.single-post .row .entry-header .entry-title{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family:sans-serif;
+    font-weight: 100;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.single-post .row .entry-header .cat-links a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color:  rgb(190, 190, 190);
+    font-size: 18px;
+    letter-spacing: 2px;
+    position: absolute;
+    margin-top: -30px;
+}
+
+.single-post .row .post-thumbnail-wrap img{
+    width: 1050px;
+    margin-left: 25px;
+}
+
+.single-post .row .entry-content .excerpt p{
+    font-size: 18px;
+    color:rgb(122, 120, 120) ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.7;
+    margin-left: 120px;
+}
+
+.single-post .row .entry-content p{
+    font-size: 18px;
+    color:rgb(122, 120, 120) ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.7;
+    margin-left: 120px;
+} 
+
+.single-post .row .entry-content blockquote p{
+    border-left: 4px solid rgb(6, 122, 122);
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 13px;
+}
+
+.single-post .row .entry-content h2{
+    margin-left: 120px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(54, 54, 54);
+}
+
+.single-post .row  .entry-content .note ol{
+    margin-left: 150px;
+}
+
+.single-post .row .entry-content .note ol li{
+    list-style-type:circle;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color:rgb(122, 120, 120) ;
+}
+
+.comments-are{
+    margin-top: 150px;
+}
+
+.comments-are #comment h3{
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 100px;
+}
+
+.comments-are #comment span{
+    margin-left: 100px;
+    font-size: 18px;
+    color:rgb(122, 120, 120) ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.comments-are #comment #comment_form{
+    margin-top: 20px;
+}
+
+.comments-are #comment #comment_form label.com span{
+    color: black;
+}
+
+.comments-are #comment #comment_form label #message{
+    width: 930px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 10px;
+    opacity: 0.2;
+}
+
+.comments-are #comment #comment_form label.user span{
+    color: black;
+}
+
+.comments-are #comment #comment_form label.user #name{
+    width: 930px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 10px;
+    opacity: 0.2;
+}
+
+.comments-are #comment #comment_form label.user_mail span{
+    color: black;
+}
+
+.comments-are #comment #comment_form label.user_mail #email{
+    width: 930px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 10px;
+    opacity: 0.2;
+}
+
+.comments-are #comment #comment_form .button-skin{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-justify: auto;
+    color: rgb(6, 122, 122);
+    border: 2px solid rgb(6, 122, 122);
+    padding: 13px 50px;
+    border-radius: 26px;
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.comments-are #comment #comment_form .button-skin:hover{
+    background-color:rgb(6, 122, 122) ;
+    color: white;
+}
+
+
+.wrap-footer{
+    background-color: black;
+    width: 1100px;
+    margin-left: 170px;
+    overflow: hidden;
+    height: 400px;
+}
+
+.wrap-footer .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrap-footer .row .col-footer-1 .wrap-col .widget-title{
+    color: white;
+    border-left: 3px solid rgb(6, 122, 122);
+    font-size: 20px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+.wrap-footer .row .col-footer-1 .wrap-col p{
+    color: white;
+    margin-right: 630px;
+    margin-left: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(194, 195, 197);
+}
+
+.wrap-footer .row .col-footer-2 .wrap-col .widget-title{
+    color: white;
+    border-left: 3px solid rgb(6, 122, 122);
+    font-size: 20px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: -605px;
+    margin-top: 40px;
+}
+
+.wrap-footer .row .col-footer-2 .wrap-col ul li {
+    color: rgb(192, 196, 196);
+    text-transform: uppercase;
+    margin-left: -650px;
+    border-bottom: 1px solid gray;
+    list-style: none;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-right: 320px;
+}
+
+.wrap-footer .row .col-footer-2 .wrap-col ul li a{
+    text-decoration: none;
+    color: rgb(192, 196, 196);
+    font-size: 12px;
+    font-family:'Times New Roman', Times, serif;
+}
+.wrap-footer .row .col-footer-3 .wrap-col .widget-title{
+    color: white;
+    border-left: 3px solid rgb(6, 122, 122);
+    font-size: 20px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: -300px;
+    margin-top: 100px;
+}
+
+.wrap-footer .row .col-footer-3 .wrap-col .row address strong{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: white;
+    margin-left: -290px;
+}
+
+.wrap-footer .row .col-footer-3 .wrap-col .row address h6{
+    font-size: 10px;
+    color: rgb(156, 152, 152);
+    margin-left: -170px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.zerogrid .bottom-footer{
+    width: 1100px;
+    margin-left: 170px;
+    overflow: hidden;
+    height: 200px;
+} 
+
+.zerogrid .bottom-footer .bottom-social a i{
+     color: white;
+     font-size: 30px;
+     margin-left: 15px;
+     margin-top: 60px;
+}
+
+.zerogrid .bottom-footer .copyright{
+    margin-left: 350px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.zerogrid .bottom-footer  .copyright a{
+    color: white;
+    text-decoration: underline;
+}

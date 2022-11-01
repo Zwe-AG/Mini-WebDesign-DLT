@@ -1,0 +1,146 @@
+body{
+    background-color:rgb(235, 235, 235) ;
+}
+.A{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 36px;
+    color:rgb(94, 94, 94);
+    text-align: center;
+}
+
+.B{
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-top: -30px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.C{
+    font-family: 'Nanum Myeongjo', serif;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(196, 193, 193);
+}
+
+/* Box One */
+.containerone{
+    background-color: white;
+    width: 280px;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-top: 5px solid red;
+}
+
+.containerone h3{
+    color: rgb(43, 42, 42);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+
+.containerone p{
+    color: rgb(196, 193, 193);
+    font-family: 'Nanum Myeongjo', serif;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.containerone img{
+    margin-top: 30px;
+    margin-left: 180px;
+    width: 20%;
+}
+
+/* Box Two */
+.containertwo{
+    background-color: white;
+    width: 280px;
+    height: 200px;
+    margin-left: 250px;
+    margin-top: -70px;
+    border-radius: 10px;
+    border-top: 5px solid aqua;
+}
+
+.containertwo h3{
+    color: rgb(43, 42, 42);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+
+.containertwo p{
+    color: rgb(196, 193, 193);
+    font-family: 'Nanum Myeongjo', serif;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.containertwo img{
+    margin-top: 30px;
+    margin-left: 180px;
+    width: 20%;
+}
+
+/* Box Three */
+.containerthree{
+    background-color: white;
+    width: 280px;
+    height: 200px;
+    margin-left: 900px;
+    margin-top: -200px;
+    border-radius: 10px;
+    border-top: 5px solid rgb(45, 113, 240);
+}
+
+.containerthree h3{
+    color: rgb(43, 42, 42);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+
+.containerthree p{
+    color: rgb(196, 193, 193);
+    font-family: 'Nanum Myeongjo', serif;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.containerthree img{
+    margin-top: 30px;
+    margin-left: 180px;
+    width: 20%;
+}
+
+
+/* Box One */
+.containerfour{
+    background-color: white;
+    width: 280px;
+    height: 200px;
+    margin: auto;
+    margin-top: -50px;
+    border-radius: 10px;
+    border-top: 5px solid yellow;
+}
+
+.containerfour h3{
+    color: rgb(43, 42, 42);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+
+.containerfour p{
+    color: rgb(196, 193, 193);
+    font-family: 'Nanum Myeongjo', serif;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.containerfour img{
+    margin-top: 30px;
+    margin-left: 180px;
+    width: 20%;
+}

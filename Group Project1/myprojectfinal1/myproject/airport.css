@@ -1,0 +1,400 @@
+body{
+	font-family: sans-serif;
+
+}
+
+
+.navi{
+	width: 100%;
+	height: 50px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.navi .left{
+	width: 50%;
+	background-color: #fff;
+}
+.navi .left img{
+	width: 80px;
+	height: 60px;
+
+	padding-left: 60px;
+}
+
+.navi .right{
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border-right: 3px solid navajowhite;
+    margin-right: 30px;
+}   
+
+.navi .right a{
+    text-decoration:none;
+    color: #f4c095;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.navi .right a:hover{
+    font-style: italic;
+    text-decoration: underline;
+    color: black;
+    text-decoration-color: powderblue;
+    text-decoration-thickness: 5px;
+}
+.navi .searchbar{
+	font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 30px;
+}
+
+.navi .searchbar .search{
+    font-size: 15px;
+
+    font-style: italic;
+    text-decoration: none;
+    color: #f4c095;
+    
+    border: 1px solid #f4c095;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.navi .searchbar .input{
+    color: #f4c095; 
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: none;
+
+    border-top-color: #f4c095;
+    border-bottom-color: #f4c095;
+    border-left-color: #f4c095;
+    border-right-color: #f4c095;
+}
+
+.navi .searchbar .explore{
+    margin-left: 20px;
+}
+.navi .searchbar .search:hover{
+    background-color: powderblue;
+    color: black;
+} 
+.container{
+	width: 100%;
+	height: 100%;
+}
+.start{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.start .left{
+	width: 40%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.start .left p{
+	font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    word-spacing: 4px;
+    line-height: 30px;
+
+    padding: 0px 60px;
+    margin-top: -30px;
+}
+.start .left pre{
+	font-size: 50px;
+	color: powderblue;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
+.start .right{
+	width: 60%;
+
+	margin-left: 60px;
+	margin-top: 80px;
+}
+
+.start .right img{
+	width: 100%;
+	border-radius: 50px;
+}
+
+.about h1{
+	font-size: 40px;
+	text-decoration: underline;
+	text-decoration-color: powderblue;
+	text-shadow: 2px 2px #999;
+
+}
+
+.about .top{
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    margin-top: 60px;
+}
+
+.about  .top .left{
+    width: 40%;
+
+    margin-left: 100px;
+}
+
+.about .top .left img{
+    width: 100%;
+
+    border-radius: 20px;
+    transition: all 0.5s;
+   
+}
+
+.about  .top .left:hover img{
+    transform: translateY(-30px);
+}
+
+.about .top .right{
+    width: 40%;
+
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+
+.about .top .right p{
+	font-family: cursive;
+	font-size: 20px;
+	font-style: italic;
+}
+
+
+.about .bottom{
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+
+    margin-top: 30px;
+}
+
+.about .bottom .right{
+    width: 40%;
+}
+
+.about .bottom .right img{
+    width: 100%;
+    border-radius: 20px;
+    
+    transition: all 0.5s;
+
+    margin-left: 80px;
+    margin-top: -60px;
+}
+
+.about .bottom .right:hover img{
+    transform: translateY(-30px);
+}
+
+
+.about .bottom .left{
+    width: 40%;
+
+    margin-left: 100px;
+    margin-top: 20px;
+  
+}
+
+.about .bottom .left p{
+	font-family: cursive;
+	font-size: 20px;
+	font-style: italic;
+}
+
+
+.location h2{
+	text-decoration: underline;
+	text-decoration-color: powderblue;
+	display: inline-block;
+
+	margin-left: 100px;
+	transform: translateY(-80px);
+}
+
+.location .map{
+	width: 400px;
+	height: 250px;
+	background-color: red;
+
+	margin-left: 100px;
+	margin-top: -50px;
+}
+.location .map iframe{
+	width: 100%;
+	height: 100%;
+}
+
+h1{
+    margin-left: 90px;
+
+}
+.read{
+    border-radius: 20px;
+    padding: 10px 20px;
+    border-color: #f4c095;
+    border-bottom-color: #f4c095;
+    background-color: transparent;
+    color:darkblue;
+}
+.read:hover{
+    background-color: powderblue;
+    color: black;
+    transition: 0.6s;
+}
+
+.contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    margin-left: 28%;
+}
+.contact h4{
+    margin:0;
+}
+.contact input[type=text]{
+    background-color: whitesmoke;
+    border:0;
+    border-radius: 20px;
+    width: 60%;
+    margin: 10px 0 20px 0;
+    height: 30px;
+}
+.contact textarea{
+    background-color: whitesmoke;
+    border:0;
+    width: 60%;
+    margin: 10px 0 20px 0;
+    height:200px;
+    border-radius: 20px;
+}
+.contact .comment{
+    margin-left:160px;
+}
+
+.footer{
+    text-shadow: none;
+
+    padding-left:40px ;
+}
+.footer h1{
+    text-shadow: 4px 4px 3px rgba(156, 156, 179, 0.623);
+
+    transform: translate(-80px);
+}
+.footer input[type=text]{
+    background-color: whitesmoke;
+    border: 0;
+    border-radius: 20px;
+    margin: 10px 15px 20px 0;
+    height: 30px;
+    width: 300px;
+    padding: 5px 15px;
+}
+.footer td i{
+    padding: 5px;
+    padding-top:200px;
+}
+.footer table{
+    width: 100%;
+}
+.copyright{
+    background-color: rgb(0, 0, 116);
+    color: white;
+    text-align: center;
+    text-shadow: none;
+}
+
+.iconcontainer{
+    display: flex;
+
+    text-align: center;
+    margin-top: 30px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    color: green;
+    background-color: #f1f1f1;
+
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+    border-radius: 30px;
+
+    margin: 10px;
+    position: relative;
+
+    overflow: hidden;
+}
+.icon i{
+    font-size: 20px;
+    line-height: 50px;
+
+    transition: all 0.5s;
+}
+
+.icon:hover i{
+    transform: scale(1.1);
+    color: #f1f1f1;
+}
+
+.icon::before{
+    content: '';
+    width: 130%;
+    height: 130%;
+
+    background-color: green;
+
+    position: absolute;
+    top: 90%;
+    left: -120%;
+
+    transform: rotate(45deg);
+}
+
+.icon:hover::before{
+    /*animation: myani 0.7s 1 forwards;*/
+    animation-name: myani;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes myani{
+    0%{
+        top: 90%;
+        left: -120%;
+    }
+    50%{
+        top: -30%;
+        left: 9%;
+    }
+    100%{
+        top: -10%;
+        left: -15%;
+    }
+}

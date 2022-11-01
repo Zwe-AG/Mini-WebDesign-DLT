@@ -1,0 +1,84 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.container .left{
+    width: 800px;
+    height: 700px;
+    /* background:linear-gradient(135deg, hsl(0, 0%, 100%),hsl(0, 100%, 98%)); */
+    background-image: url("./images/bg-pattern-desktop.svg");
+}
+
+.container .left img{
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.container .left .A{
+    font-family: 'Josefin Slab', serif;
+    font-size: 60px;
+    color:hsl(0, 36%, 70%);
+    margin-left: 150px;
+    margin-top: 100px;
+    letter-spacing: 10px;
+}
+
+.container .left .B{
+    font-family: 'Josefin Slab', serif;
+    font-size: 60px;
+    font-weight: larger;
+    color:black;
+    margin-left: 150px;
+    margin-top: -30px;
+    letter-spacing: 10px;
+}
+
+.container .left p{
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    color:hsl(0, 36%, 70%);
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.container .left .error{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.container .left .error input{
+    border: 1px solid hsl(0, 93%, 68%);
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 15px 100px;
+    color: rgb(8, 2, 2);
+    margin-left: 150px;
+    /* clear: both; */
+}
+
+.container .left .error span{
+    border: 1px solid  hsl(0, 93%, 68%);
+    background-color:hsl(0, 74%, 74%) ;
+    padding: 15px 40px;
+    border-radius: 50px;
+    margin-left: -50px;
+    margin-top: -1px;
+}
+
+.container .left .error span i {
+    width: 5%;
+    color: antiquewhite;
+}
+
+.container .right{
+
+}
+
+.container .right img{
+    width: 550px;
+    height: 700px;
+}

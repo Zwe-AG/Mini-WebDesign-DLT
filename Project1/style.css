@@ -1,0 +1,110 @@
+h1{
+    margin-left: 650px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* firstcard */
+.container .firstcard{
+    background-color: orange;
+    width: 300px;
+    height: 470px;
+}
+
+.container .firstcard img{
+    margin: 50px 50px 40px;
+}
+
+.container .firstcard h1{
+    color: rgb(242, 242, 242);
+    font-family:'Bebas Neue', cursive;
+    margin: 15px 50px;
+}
+
+.container .firstcard p{
+    color: rgb(242, 242, 242);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+    margin: 10px 50px;
+}
+
+.container .firstcard button{
+    margin: 60px 50px;
+    padding: 12px 30px;
+    border-radius: 20px;
+    color:rgb(227, 136, 38);
+    border: 1px solid white;
+    background-color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* secondcard */
+.container .secondcard{
+    background-color: rgb(0, 105, 112);;
+    width: 300px;
+    height: 470px;
+}
+
+.container .secondcard img{
+    margin: 50px 50px 40px;
+}
+
+.container .secondcard h1{
+    color: rgb(242, 242, 242);
+    font-family:'Bebas Neue', cursive;
+    margin: 15px 50px;
+}
+
+.container .secondcard p{
+    color: rgb(242, 242, 242);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+    margin: 10px 50px;
+}
+
+.container .secondcard button{
+    margin: 60px 50px;
+    padding: 12px 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(0, 105, 112);
+}
+/* Thirdcard */
+.container .thirdcard{
+    background-color: rgb(0, 66, 65);
+    width: 300px;
+    height: 470px;
+}
+
+
+.container .thirdcard img{
+    margin: 50px 50px 40px;
+}
+
+.container .thirdcard h1{
+    color: rgb(242, 242, 242);
+    font-family:'Bebas Neue', cursive;
+    margin: 15px 50px;
+}
+
+.container .thirdcard p{
+    color: rgb(242, 242, 242);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+    margin: 10px 50px;
+}
+
+.container .thirdcard button{
+    margin: 40px 50px;
+    padding: 12px 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(0, 66, 65);
+}
